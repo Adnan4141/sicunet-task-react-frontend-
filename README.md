@@ -1,16 +1,41 @@
-# React + Vite
+# Sicunet React Technical Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the React frontend submission for the **Sicunet Inc.** technical task.  
+The project is built using **React** with **Vite** for fast development and Hot Module Replacement (HMR).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Features
 
-## React Compiler
+- Functional React components with hooks
+- State management using React built-in state
+- Form validation and error handling
+- Authentication flow implementation
+- API integration with proper error handling
+- Clean and well-structured code following React best practices
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Node.js (v18+)**
+- **npm**
+
+Check your versions:
+
+
+```bash
+node -v
+npm -v
+## Setup & Run Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Adnan4141/sicunet-task-react-frontend-.git
+cd sicunet-task-react-frontend-.git
+
+
+npm install
+npm run dev
+
